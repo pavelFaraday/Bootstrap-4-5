@@ -1,0 +1,4 @@
+
+-- <div class="container"> - with margins left/right
+-- <div class="container-fluid"> - without margins
+-- m-1 (margin: 4px)
