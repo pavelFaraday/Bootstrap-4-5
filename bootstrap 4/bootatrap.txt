@@ -167,17 +167,39 @@
 
 ------------------------------------------------------------------
 
-             Display property
+             Display Property
         --  d-inline
         --  d-inline-block
         --  d-block
         --  d-none
 
              Display for devices
-        d-       (d-inline, d-inline-block, d-block, d-none)
-        d-sm-    (d-inline, d-inline-block, d-block, d-none)
-        d-md-    (d-inline, d-inline-block, d-block, d-none)
-        d-lg-    (d-inline, d-inline-block, d-block, d-none)
-        d-xl-    (d-inline, d-inline-block, d-block, d-none)
+        --  d-       (d-inline, d-inline-block, d-block, d-none)
+        --  d-sm-    (d-inline, d-inline-block, d-block, d-none)
+        --  d-md-    (d-inline, d-inline-block, d-block, d-none)
+        --  d-lg-    (d-inline, d-inline-block, d-block, d-none)
+        --  d-xl-    (d-inline, d-inline-block, d-block, d-none)
+
+------------------------------------------------------------------
+             
+             FLEXBOX - DIRECTION
+        --  d-flex                      (indicate only Parent DIV !)
+        --  flex-row | flex-Column      (indicate only Parent DIV with a class '.d-flex'!)
+
+             Flexbox - Justify Content
+        --  justify-content-start       (indicate only Parent DIV with a class '.d-flex'!)
+        --  justify-content-end         (indicate only Parent DIV with a class '.d-flex'!)
+        --  justify-content-center      (indicate only Parent DIV with a class '.d-flex'!)
+        --  justify-content-between     (indicate only Parent DIV with a class '.d-flex'!)
+        --  justify-content-around      (indicate only Parent DIV with a class '.d-flex'!)
+
+             Flexbox - Align Items
+        --  align-items-start           (indicate only Parent DIV with a class '.d-flex'!)
+        --  align-items-end             (indicate only Parent DIV with a class '.d-flex'!)
+        --  align-items-center          (indicate only Parent DIV with a class '.d-flex'!)
+
+             Perfect Centering
+        --  d-flex justify-content-center align-items-center 
+         (indicate only Parent DIV with a class '.d-flex'!)
 
 ------------------------------------------------------------------
