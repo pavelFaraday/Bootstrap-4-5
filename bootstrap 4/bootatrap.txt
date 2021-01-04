@@ -200,6 +200,26 @@
 
              Perfect Centering
         --  d-flex justify-content-center align-items-center 
-         (indicate only Parent DIV with a class '.d-flex'!)
+            (indicate only Parent DIV with a class '.d-flex'!)
+
+------------------------------------------------------------------
+
+             Buttons
+        --  btn btn-primary
+        --  btn btn-secondary
+        --  btn btn-link
+
+        --  btn btn-outline-danger    
+            (With other bootstrap colors - danger, success, info..)
+
+        --  btn btn-sm
+        --  btn btn-lg
+
+        --  "btn btn-primary" disabled  (Disabled Button)
+
+             Buttons Group
+        --  class="btn-group" role="group" aria-label="Basic example" 
+            (indicate only Parent DIV)
+
 
 ------------------------------------------------------------------
