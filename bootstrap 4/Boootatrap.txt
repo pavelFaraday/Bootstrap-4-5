@@ -105,4 +105,20 @@
         -- text-md-   (left, center, right)
         -- text-lg-   (left, center, right)
         -- text-xl-   (left, center, right)
-  
+
+------------------------------------------------------------------
+
+            TEXT TRANSFORMS
+        -- text-lowercase
+        -- text-uppercase
+        -- text-capitalized
+
+------------------------------------------------------------------
+
+            Font weight and italics
+        -- font-weight-bold
+        -- font-weight-normal
+        -- font-weight-light
+        -- font-italic
+
+------------------------------------------------------------------
