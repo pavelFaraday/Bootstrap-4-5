@@ -223,3 +223,44 @@
 
 
 ------------------------------------------------------------------
+
+             Border-radius
+        --  rounded-top
+        --  rounded-bottom
+        --  rounded-left
+        --  rounded-right
+        --  rounded
+        --  rounded-circle
+        --  rounded-pill
+
+             Border
+        --  border
+        --  border-top
+        --  border-end
+        --  border-bottom
+        --  border-start
+
+             Subtractive Borders
+        --  border-0
+        --  border-top-0
+        --  border-end-0
+        --  border-bottom-0
+        --  border-start-0
+
+             Border color
+        --  border border-primary
+        --  border border-secondary
+        --  border border-success
+        --  border border-danger
+        --  border border-warning
+        --  border border-info
+        --  border border-light
+        --  border border-dark
+        --  border border-white
+
+             Border Width
+        --  border border-1
+        --  border border-2
+        --  border border-3
+        --  border border-4
+        --  border border-5
