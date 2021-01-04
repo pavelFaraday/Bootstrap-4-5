@@ -166,3 +166,18 @@
         --  bg-transparent
 
 ------------------------------------------------------------------
+
+             Display property
+        --  d-inline
+        --  d-inline-block
+        --  d-block
+        --  d-none
+
+             Display for devices
+        d-       (d-inline, d-inline-block, d-block, d-none)
+        d-sm-    (d-inline, d-inline-block, d-block, d-none)
+        d-md-    (d-inline, d-inline-block, d-block, d-none)
+        d-lg-    (d-inline, d-inline-block, d-block, d-none)
+        d-xl-    (d-inline, d-inline-block, d-block, d-none)
+
+------------------------------------------------------------------
