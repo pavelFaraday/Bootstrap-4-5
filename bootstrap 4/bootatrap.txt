@@ -268,12 +268,49 @@
 ------------------------------------------------------------------
 
              CARDS
-        div .card-group >
+             
+            div .card-group >
                 div .card >
                     img .card-img-top
                     div .card-body >
                             h3 .card-title
                             p .card-tex
                     div .card-footer
+                div .card >
+                    img .card-img-top
+                    div .card-body >
+                            h3 .card-title
+                            p .card-tex
+                    div .card-footer
+                div .card >
+                    img .card-img-top
+                    div .card-body >
+                            h3 .card-title
+                            p .card-tex
+                    div .card-footer
+
+------------------------------------------------------------------
+
+             Box Shadow
+        --  shadow-none
+        --  shadow-sm
+        --  shadow
+        --  shadow-lg
+
+------------------------------------------------------------------
+
+             Width
+        --  .w-25 
+        --  .w-50 
+        --  .w-75 
+        --  .w-100 
+        --  .w-auto 
+
+             Height
+        --  .h-25
+        --  .h-50
+        --  .h-75
+        --  .h-100
+        --  .h-auto
 
 ------------------------------------------------------------------
