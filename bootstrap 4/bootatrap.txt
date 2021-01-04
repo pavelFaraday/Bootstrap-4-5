@@ -135,3 +135,20 @@
         -- lead
 
 ------------------------------------------------------------------
+
+             TEXT COLORS
+        --  text-primary
+        --  text-secondary
+        --  text-success
+        --  text-danger
+        --  text-warning
+        --  text-info
+        --  text-light
+        --  text-dark
+        --  text-body
+        --  text-muted
+        --  text-white
+        --  text-black-50
+        --  text-white-50
+
+------------------------------------------------------------------
