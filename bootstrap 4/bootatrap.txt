@@ -38,6 +38,12 @@
         -- mb-4 (margin-bottom: 24px)
         -- mb-5 (margin-bottom: 48px)
 
+            Margin left and right
+        -- mx-  (1-5)
+
+            Margin top and bottom
+        -- my-  (1-5)
+
             Margin Auto (Center DIV)
         -- m-auto
 
@@ -84,6 +90,12 @@
         -- pb-3 (padding-bottom: 16px)
         -- pb-4 (padding-bottom: 24px)
         -- pb-5 (padding-bottom: 48px)
+
+            padding left and right
+        -- px-      (1-5)
+
+            padding top and bottom
+        -- py-      (1-5)
 
             padding for devices
         -- p-

@@ -55,6 +55,12 @@
     <h4>Margin Auto (Center DIV)</h4>
     <div class="bg-primary m-auto" style="width:200px;">m-auto (Center DIV)</div>
 
+    <h4>Margin left and right</h4>
+    <div class="bg-primary mx-5">mx-5 (Margin left and right)</div>
+
+    <h4>Margin top and bottom</h4>
+    <div class="bg-primary my-5">my-5 (Margin top and bottom)</div>
+
     <h4>Responsive Margin examples</h4>
     <div class="bg-primary ml-sm-5 ml-md-0">ml-sm-0</div>
 
@@ -102,6 +108,12 @@
     <div class="bg-danger text-white pb-3">.pb-3 (padding-bottom: 16px;)</div>
     <div class="bg-warning text-white pb-4">.pb-4 (padding-bottom: 24px;)</div>
     <div class="bg-info text-white pb-5">.pb-5 (padding-bottom: 48px;)</div>
+
+    <h4>Padding left and right</h4>
+    <div class="bg-primary px-5">px-5 (Padding left and right)</div>
+
+    <h4>Padding top and bottom</h4>
+    <div class="bg-primary py-5">py-5 (Padding top and bottom)</div>
 
     <h5>Responsive padding Example</h5>
     <div class="bg-primary text-white pl-5 pl-sm-0 pl-md-5 pl-lg-0 p-xl-5">Screen sizes: Extra small pl-5 | small pl-0 | medium pr-5 | large ml-0 | extra large p-5</div>
@@ -610,58 +622,224 @@
 
 <!-- ----------------------------------------------------------------------- -->
 
-<!--Navbar-->
-<h3 class="course-heading">Navbar</h3>
+    <!--Navbar-->
+    <h3 class="course-heading">Navbar</h3>
 
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-    <a class="navbar-brand" href="#">Navbar</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent">
-        <span class="navbar-toggler-icon"></span>
-    </button>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent">
+            <span class="navbar-toggler-icon"></span>
+        </button>
 
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-                <a class="nav-link" href="#">Home</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Link</a>
-            </li>
-            <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown">
-                    Dropdown
-                </a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <a class="dropdown-item" href="#">Action</a>
-                    <a class="dropdown-item" href="#">Another action</a>
-                    <div class="dropdown-divider"></div>
-                    <a class="dropdown-item" href="#">Something else here</a>
-                </div>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link disabled" href="#">Disabled</a>
-            </li>
-        </ul>
-        <form class="form-inline my-2 my-lg-0">
-            <input class="form-control mr-sm-2" type="search" placeholder="Search">
-            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-        </form>
-    </div>
-</nav>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown">
+                        Dropdown
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">Action</a>
+                        <a class="dropdown-item" href="#">Another action</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Something else here</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link disabled" href="#">Disabled</a>
+                </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            </form>
+        </div>
+    </nav>
 
-<br><br><br>
+    <br><br><br>
 
-<a href="https://getbootstrap.com/docs/5.0/components/navbar/" target="_blank">
-    <h5>Learn more about Navbars</h5>
-</a>
+    <a href="https://getbootstrap.com/docs/5.0/components/navbar/" target="_blank">
+        <h5>Learn more about Navbars</h5>
+    </a>
 
-<br><br><br><br><br><br>
+    <br><br><br><br><br><br>
+
 </div>
+<!-- ----------------------------------------------------------------------- -->
+<div class="container">
+
+    <!--Grid-->
+    <!--powerful mobile-first flexbox grid to build layouts of all shapes and sizes thanks to a twelve column system-->
+    <h3 class="course-heading">Grid System</h3>
+
+    <div class="container text-white">
+
+        <!--Full width column-->
+        <div class="row mb-2">
+            <div class="col-12 bg-primary">
+                .col-12
+            </div>
+        </div>
+
+        <!--12 columns divided by 2-->
+        <div class="row mb-2">
+            <div class="col-6 bg-danger">
+                .col-6
+            </div>
+            <div class="col-6 bg-warning">
+                .col-6
+            </div>
+        </div>
+
+         <!--12 columns divided by 3-->
+         <div class="row mb-2">
+            <div class="col-4 bg-danger">
+                .col-4
+            </div>
+            <div class="col-4 bg-warning">
+                .col-4
+            </div>
+            <div class="col-4 bg-success">
+                .col-4
+            </div>
+        </div>
+
+        <!--12 columns divided by 4-->
+        <div class="row mb-2">
+            <div class="col-3 bg-danger">
+                .col-3
+            </div>
+            <div class="col-3 bg-warning">
+                .col-3
+            </div>
+            <div class="col-3 bg-success">
+                .col-3
+            </div>
+            <div class="col-3 bg-info">
+                .col-3
+            </div>
+        </div>
+
+        <!--12 columns divided by 6-->
+        <div class="row mb-2">
+            <div class="col-2 bg-danger">
+                .col-2
+            </div>
+            <div class="col-2 bg-warning">
+                .col-2
+            </div>
+            <div class="col-2 bg-success">
+                .col-2
+            </div>
+            <div class="col-2 bg-info">
+                .col-2
+            </div>
+            <div class="col-2 bg-dark">
+                .col-2
+            </div>
+            <div class="col-2 bg-secondary">
+                .col-2
+            </div>
+        </div>
+
+        <!--12 columns divided by 12-->
+        <div class="row mb-2">
+            <div class="col-1 bg-danger">
+                .col-1
+            </div>
+            <div class="col-1 bg-warning">
+                .col-1
+            </div>
+            <div class="col-1 bg-success">
+                .col-1
+            </div>
+            <div class="col-1 bg-info">
+                .col-1
+            </div>
+            <div class="col-1 bg-dark">
+                .col-1
+            </div>
+            <div class="col-1 bg-secondary">
+                .col-1
+            </div>
+            <div class="col-1 bg-danger">
+                .col-1
+            </div>
+            <div class="col-1 bg-warning">
+                .col-1
+            </div>
+            <div class="col-1 bg-success">
+                .col-1
+            </div>
+            <div class="col-1 bg-info">
+                .col-1
+            </div>
+            <div class="col-1 bg-dark">
+                .col-1
+            </div>
+            <div class="col-1 bg-secondary">
+                .col-1
+            </div>
+        </div>
+
+        <br>
+
+        <h5 class="text-dark">Mix and match columns as long as the total is equal to 12</h5>
+        <!-- 4 and 8 columns = 12-->
+        <div class="row mb-2">
+            <div class="col-4 bg-danger">
+                .col-4
+            </div>
+            <div class="col-8 bg-warning">
+                .col-8
+            </div>
+        </div>
+
+        <div class="row mb-2">
+            <div class="col-6 bg-danger">
+                .col-6
+            </div>
+            <div class="col-3 bg-warning">
+                .col-3
+            </div>
+            <div class="col-3 bg-success">
+                .col-3
+            </div>
+        </div>
+
+        <br>
+
+        <h5 class="text-dark">Responsive grids example</h5>
+
+        <div class="row mb-2">
+            <div class="col-4 col-md-8 bg-danger">
+                .col-4 on xs-sm and .col-8 on md-xl
+            </div>
+            <div class="col-8 col-md-4 bg-warning">
+                .col-8 on xs-sm and .col-4 on md-xl
+            </div>
+        </div>
+
+        <br><br>
+
+        <a href="https://getbootstrap.com/docs/5.0/layout/grid/" target="_blank">
+            <h5>Learn more about Grid System</h5>
+        </a>
+
+</div> 
+
+<br><br><br><br><br>
 
 
 
 
 
+<!-- ----------------------------------------------------------------------- -->
     <!-- JS Bootstrap files -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
