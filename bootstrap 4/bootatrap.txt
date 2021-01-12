@@ -2,6 +2,8 @@
             Main containers
         -- <div class="container"> - with margins left/right
         -- <div class="container-fluid"> - without margins
+        -- <div class="container-md"> - with margins left/right only until md size
+        -- <div class="container-sm"> - with margins left/right only until sm size
 
             Global Margins         
         -- m-1 (margin: 4px)
